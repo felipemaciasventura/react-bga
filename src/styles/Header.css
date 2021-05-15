@@ -1,0 +1,247 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo-section {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .edit-title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0px 0px 10px 5px;
+  }
+  
+  .full-search {
+    width: 100%;
+    background-color: white;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  
+  .active {
+    border: solid 1px #4F4F4F !important;
+    border-radius: 16px;
+  }
+  .inactive {
+    border: solid 1px white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+  .border-right {
+    border-right: solid 1px #F2F2F2 !important;
+  }
+  /* .border-right-full {
+    border-right: solid 1px white;
+  } */
+  
+  .search-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .search-title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 9px;
+    line-height: 11px;
+    text-transform: uppercase;
+    padding: 5px 20px 0px 20px;
+  }
+  
+  .form-section .form,
+  .form-section .form-full {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    min-height: 55px;
+    cursor: pointer !important;
+  }
+  
+  .form-section .people,
+  .form-section .people-full,
+  .form-section .where,
+  .form-section .where-full {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Mulish', sans-serif;
+    border: 0px;
+    border-radius: 16px;
+    margin: 0px 0px;
+    padding: 15px 20px;
+    border: solid 1px none;
+    background-color: none;
+    cursor: pointer !important;
+  }
+  
+  .people {
+    width: 130px;
+    color: #BDBDBD;
+  }
+  .where {
+    width: 150px;
+  }
+  .people-full {
+    width: 100%;
+    padding: 5px 20px !important;
+  }
+  
+  .where-full {
+    width: 100%;
+    padding: 5px 20px !important;
+  }
+  
+  .input-section .where:hover {
+    cursor: pointer;
+  }
+  
+  .where:focus, 
+  .people:focus,
+  .where-full:focus, 
+  .people-full:focus,
+  .search-button:focus,
+  .search-button-full:focus,
+  .button-minus:focus,
+  .button-plus:focus {
+    outline: none;
+  }
+  
+  .search-button {
+    border: 0px;
+    background: none;
+    outline: none;
+    color: #EB5757;
+    background-color: white;
+  }
+  
+  .search-button-full {
+    border: 0px;
+    background: none;
+    outline: none;
+    color: #F2F2F2;
+    background-color: #EB5757;
+    width: 127px;
+    border-radius: 15px;
+    padding: 8px 0px;
+  }
+  
+  .search-button i {
+    pointer-events: none;
+    font-size: 22px;
+    padding: 0px 10px;
+    vertical-align: middle;
+  }
+  
+  .search-button-full i {
+    font-size: 22px;
+    pointer-events: none;
+    vertical-align: middle;
+  }
+  
+  .search-text {
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px 10px;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  
+  .options-section {
+    display: flex;
+    width: 100%;
+  }
+  
+  .place-options {
+    width: 30%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+    margin: 20px 20px 15px 20px;
+  }
+  
+  .place {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px;
+    width: 300px;
+  }
+  
+  .place:hover {
+    background-color: rgb(233, 233, 233);
+    border-radius: 13px;
+  }
+  
+  .place i {
+    margin-right: 10px;
+  }
+  
+  .people-options {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 20px auto 0px auto;
+  }
+  
+  .people-title,
+  .people-quantity {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .people-subtitle {
+    color: #BDBDBD;
+  }
+  
+  .people-quantity {
+    margin: 20px;
+  }
+  
+  .button-minus,
+  .button-plus {
+    background-color: white;
+    border: solid 1px #828282;
+    color: #828282;
+    border-radius: 4px;
+    margin: 10px 0px;
+  }
+  
+  .small-screen-options {
+    display: none;
+  }
+  
+  .big-screen-options {
+    display: flex;
+  }
+  
